@@ -1,4 +1,4 @@
-import './App.css'
+import './index.css'
 import {puppyList} from './data.js'
 import { useState } from 'react'
 
@@ -16,7 +16,7 @@ function App() {
         })
        
       }
-      { featPupId && <p>{ featPupId }</p> };
+      { featPupId && <p>{ featPupId }</p> }
       {featPupId && (
         <div>
           <h2>{featuredPup.name}</h2>
@@ -25,7 +25,7 @@ function App() {
             <li>Email: {featuredPup.email}</li>
           </ul>
         </div>
-      )};
+      )}
       </div>
   )
 }
